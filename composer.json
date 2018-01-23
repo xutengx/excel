@@ -1,0 +1,33 @@
+{
+	"name": "xutengx/excel",
+	"description": "An eloquent way of importing and exporting Excel and CSV files with the power of PHPOffice's PHPExcel.",
+	"keywords": ["excel", "xuteng", "gaara"],
+	"license": "MIT",
+	"type": "library",
+	"authors": [
+		{
+			"name": "xuteng",
+			"email": "68822684@qq.com"
+		}
+	],
+	"require": {
+		"php": ">=7.1.0",
+        "ext-xml": "*",
+        "ext-xmlwriter": "*",
+		"phpoffice/phpexcel": "*"
+    },
+    "recommend": {
+        "ext-zip": "*",
+        "ext-gd2": "*"
+    },
+	"autoload": {
+		"psr-4": {
+			"Xutengx\\Excel\\": "src/"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "2.4-dev"
+		}
+	}
+}
